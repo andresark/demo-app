@@ -1,4 +1,4 @@
-<img width="2015" alt="C1 WS Populated Dashboard" src="https://user-images.githubusercontent.com/22714509/113609465-55b38f80-963b-11eb-9bf3-da5df412bb6b.png">
+<img width="1100" alt="Demo App Screenshot" src="https://user-images.githubusercontent.com/22714509/113609973-0c177480-963c-11eb-958a-c36731718b73.png">
 
 
 # Demo app for Cloud One Workload Security
@@ -28,6 +28,8 @@ Add generate-ws-activities.sh to a crontab as below to generate logs to all modu
 ```
 */30 * * * * bash ~/generate-ws-activities.sh
 ```
+
+<img width="2015" alt="C1 WS Populated Dashboard" src="https://user-images.githubusercontent.com/22714509/113609465-55b38f80-963b-11eb-9bf3-da5df412bb6b.png">
 
 
 ## Support
