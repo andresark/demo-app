@@ -1,6 +1,6 @@
-# Demo app for Deep Security
+# Demo app for Cloud One Workload Security
 
-This repository contains a script to help deploy a tomcat application to introduce folks to the capabilities of Deep Security.
+This repository contains a script to help deploy a tomcat application to introduce folks to the capabilities of Cloud One Workload Security.
 
 ## Table of Contents
 
@@ -16,10 +16,10 @@ The demo app can be configured by running the below command.
 NOTE: This has only been tested on Ubuntu 18.04 platform on AWS.
 
 ```
-curl https://raw.githubusercontent.com/deep-security/demo-app/master/demo-app.sh | sudo bash
+curl https://raw.githubusercontent.com/andresark/demo-app/master/demo-app.sh | sudo bash
 ```
 
-Since tomcat serves requests on port 8080 by default, the security group assigned to the newly created instances needs to allow incoming requests on port 8080.
+Since tomcat serves requests on port 80 by default, the security group assigned to the newly created instances needs to allow incoming requests on port 80.
 
 ## Support
 
