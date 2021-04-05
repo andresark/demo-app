@@ -13,9 +13,9 @@ if [ $(/usr/bin/id -u) -ne 0 ]; then
 fi
 
 # Vars
-GITHUB_REPO=https://github.com/deep-security/demo-app
+GITHUB_REPO=https://github.com/andresark/demo-app
 TOMCAT_HOME=/opt/tomcat
-TOMCAT_DOWNLOAD_URL=https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.tar.gz
+TOMCAT_DOWNLOAD_URL=https://archive.apache.org/dist/tomcat/tomcat-10/v10.0.4/bin/apache-tomcat-10.0.4.tar.gz
 TOMCAT_PACKAGE_NAME=$(echo "$TOMCAT_DOWNLOAD_URL" | awk -F'/' '{print $NF}' | sed 's|.tar.gz$||')
 TOMCAT_PORT=80
 
