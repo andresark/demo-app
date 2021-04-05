@@ -2,11 +2,6 @@
 
 This repository contains a script to help deploy a tomcat application to introduce folks to the capabilities of Cloud One Workload Security.
 
-## Table of Contents
-
-* [Usage](#usage)
-* [Support](#support)
-* [Contribute](#contribute)
 
 ## Usage
 
