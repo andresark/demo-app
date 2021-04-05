@@ -21,6 +21,17 @@ curl https://raw.githubusercontent.com/andresark/demo-app/master/demo-app.sh | s
 
 Since tomcat serves requests on port 80 by default, the security group assigned to the newly created instances needs to allow incoming requests on port 80.
 
+
+## Automating event generation
+
+Add generate-ws-activities.sh to a crontab as below to generate logs to all modules every 30 minutes:
+
+
+```
+*/30 * * * * bash ~/generate-ws-activities.sh
+```
+
+
 ## Support
 
 For bug reports or feature requests, please [open an issue](../issues). You are welcome to [contribute](#contribute).
