@@ -1,3 +1,6 @@
+<img width="2015" alt="C1 WS Populated Dashboard" src="https://user-images.githubusercontent.com/22714509/113609465-55b38f80-963b-11eb-9bf3-da5df412bb6b.png">
+
+
 # Demo app for Cloud One Workload Security
 
 This repository contains a script to help deploy a tomcat application to introduce folks to the capabilities of Cloud One Workload Security.
